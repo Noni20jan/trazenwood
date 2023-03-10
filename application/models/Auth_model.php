@@ -283,6 +283,7 @@ class Auth_model extends CI_Model{
                 //     $cart_details = $this->cart_model->get_cart_details_by_id($user_cart_id);
                 //     $this->cart_model->add_cart_to_session_from_db($cart_details, true);
                 // }
+                
                 return $user;
             } else {
                 // $this->session->set_flashdata('error', trans("login_error"));

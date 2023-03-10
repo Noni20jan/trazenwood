@@ -270,6 +270,7 @@ class Auth_model extends CI_Model{
                     'modesy_sess_logged_in' => true,
                     'modesy_sess_app_key' => $this->config->item('app_key'),
                 );
+                
                 $this->session->set_userdata($user_data);
 
                 // $this->save_user_login_session_data();
